@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -20,7 +20,7 @@ title                    : "보글보글"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "songingeun"
-description              : "공부한 것들에 대해 기록하는 개인 블로그"
+description              : "개인 블로그"
 url                      : "https://silverfox516.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Kai Song"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "나아지고자 합니다"
+  bio              : "개발자"
   location         : "South Korea"
   email            :
   links:
@@ -290,3 +290,5 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
