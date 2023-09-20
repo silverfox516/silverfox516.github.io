@@ -16,3 +16,18 @@ main:
     url: /tags/
   - title: "Search"
     url: /search/
+
+sidenav:
+  - title: "개발 로그"
+    children:
+      - title: "mmistakes"
+        url: /categories/devlog-mmistakes/
+        category: devlog-mmistakes
+      - title: "안드로이드"
+        url: /categories/devlog-android/
+        category: devlog-android
+  - title: "주식"
+    children:
+      - title: "기업공부"
+        url: /categories/stock-corporate/
+        category: stock-corporate

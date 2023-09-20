@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Kai Song"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "개발자"
-  location         : "South Korea"
+  bio              : # "개발자"
+  location         : # "South Korea"
   email            :
   links:
     - label: "Email"
@@ -286,9 +286,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
+      show_date: false
       comments: true
       share: true
       related: true
       toc: true
       toc_sticky: true
+      sidebar:
+        nav: "sidenav"
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      sidebar:
+        nav: "sidenav"
