@@ -1,10 +1,10 @@
 ---
 layout: archive
-permalink: /categories/stock-corporate/
+permalink: /categories/system-embedded/
 types: posts
 ---
 
-{% assign posts = site.categories['stock-corporate']%}
+{% assign posts = site.categories['system-embedded']%}
 {% for post in posts %}
   {% include archive-single-informative.html type=page.entries_layout %}
 {% endfor %}

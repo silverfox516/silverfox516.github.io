@@ -20,14 +20,14 @@ main:
 sidenav:
   - title: "개발 로그"
     children:
-      - title: "mmistakes"
-        url: /categories/devlog-mmistakes/
-        category: devlog-mmistakes
       - title: "안드로이드"
         url: /categories/devlog-android/
         category: devlog-android
-  - title: "주식"
+  - title: "공부"
     children:
-      - title: "기업공부"
-        url: /categories/stock-corporate/
-        category: stock-corporate
+      - title: "임베디드"
+        url: /categories/study-embedded/
+        category: study-embedded
+      - title: "디자인패턴"
+        url: /categories/study-dp/
+        category: study-dp
